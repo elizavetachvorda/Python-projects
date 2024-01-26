@@ -14,26 +14,45 @@ region: Residential area in the U.S.
 charges: Individual medical costs billed by health insurance
 The dataset contains no missing data.
 
-## Analysis Highlights
+## Skills demonstrated in data loading and organization:
+- **CSV File Handling:** Read a CSV file ('insurance.csv') using the `csv` module in Python.
+- **Data Structure:** Created a list (`data`) to store patient records, and each record represented as a dictionary.
 
-### Gender Proportions
-The gender distribution is nearly equal, with males at 50.52% and females at 49.48%. This balance enhances model representativeness.
+## Skills demonstrated in the InsuranceAnalysis class:
+- **Class Definition:** Defined a class `InsuranceAnalysis` to encapsulate methods for data analysis.
+- **Data Manipulation:** Extracted relevant information from the dataset using dictionary keys.
+- **For Loops:** Iterated through the dataset to calculate various statistics.
 
-### Average Insurance Charges by Gender
-On average, males pay slightly more than females ($13956.75 vs. $12569.58), indicating a gender-based discrepancy in insurance charges.
+## Methods within InsuranceAnalysis class:
 
-### Average Age by Gender
-Average ages for males and females are approximately 39 and 40, respectively. Age alone may not significantly contribute to the gender-based charge difference.
+### gender_proportions
+- **Data Aggregation:** Calculated proportions of males and females within the dataset.
+- **String Formatting:** Used string formatting to present the results in a readable manner.
 
-### Children Discrepancy in Charges
-The number of children influences insurance cost discrepancies. Males have lower costs for up to three children, while females have higher costs with four or five children.
+### average_charge_per_gender
+- **Conditional Statements:** Employed if-else statements to differentiate between male and female records.
+- **Numerical Operations:** Calculated average insurance charges for both males and females.
+- **String Formatting:** Formatted the results for clear presentation.
 
-### BMI Distribution
-More than 55% of males are classified as obese, explaining higher insurance costs. Females have a slight predominance in overweight individuals.
+### average_age_per_gender
+- **Conditional Statements:** Differentiated between male and female records using if-else statements.
+- **Numerical Operations:** Calculated average ages for both males and females.
+- **String Formatting:** Formatted the results for clarity.
 
-### Smoker Percentage
-Males exhibit a significantly higher smoking prevalence (23.52% vs. 17.37% in females), contributing to potential insurance cost differences.
+### children_discrepancy
+- **Data Grouping:** Grouped data based on the number of children.
+- **List Comprehension:** Utilized list comprehension to calculate average charges within each group.
+- **Dictionary Operations:** Created a dictionary to store discrepancies.
+- **Sorting:** Sorted the dictionary by keys in ascending order.
 
-## Conclusion
+### bmi_distribution
+- **Conditional Statements:** Categorized individuals based on BMI into overweight and obese categories.
+- **Proportion Calculations:** Calculated proportions of overweight and obese individuals for both genders.
+- **String Formatting:** Formatted results for clear presentation.
 
-The analysis reveals gender-based discrepancies in insurance charges, influenced by factors such as the number of children, obesity prevalence, and smoking habits. Insurers can use these insights to refine pricing strategies and promote healthier lifestyles, potentially reducing insurance costs.
+### smoker_percentage
+- **Conditional Statements:** Separated records based on gender and smoking status.
+- **Percentage Calculations:** Calculated the percentage of smokers for both males and females.
+- **String Formatting:** Formatted results for clear presentation.
+
+
