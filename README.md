@@ -5,13 +5,13 @@ The csv.DictReader class is employed to read the CSV file, enabling convenient m
 
 ### Dataset Columns:
 
-age: Age of the primary beneficiary
-sex: Gender of the insurance contractor (female, male)
-bmi: Body mass index
-children: Number of children covered by health insurance
-smoker: Smoking status
-region: Residential area in the U.S.
-charges: Individual medical costs billed by health insurance
+- age: Age of the primary beneficiary
+- sex: Gender of the insurance contractor (female, male)
+- bmi: Body mass index
+- children: Number of children covered by health insurance
+- smoker: Smoking status
+- region: Residential area in the U.S.
+- charges: Individual medical costs billed by health insurance/
 The dataset contains no missing data.
 
 ## Skills demonstrated in data loading and organization:
