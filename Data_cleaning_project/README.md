@@ -24,4 +24,4 @@ This project focuses on cleaning and preparing a dataset containing information 
 
 The dataset is now cleaned, consistent, and ready for further analysis. This project demonstrates proficiency in Python programming, data manipulation, and the application of regular expressions for effective data cleaning.
 
-Feel free to explore the [Jupyter Notebook](audiobook_data_cleaning.ipynb) for a detailed walkthrough of the data cleaning process.
+Feel free to explore the [Jupyter Notebook](Data_cleaning_project/data_cleaning_project.ipynb) for a detailed walkthrough of the data cleaning process.
