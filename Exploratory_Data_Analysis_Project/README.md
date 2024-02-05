@@ -30,4 +30,4 @@ In this project, a series of cleaning steps were applied to ensure the dataset's
 - **Descriptive Statistics**: Utilized central tendency and spread statistics to summarize data.
 - **Data Visualization**: Employed seaborn and matplotlib for visualizing both quantitative and categorical data.
 - **Statistical Testing**: Applied chi-square statistics to test associations between categorical variables.
-- **Python Programming**: Implemented code in Python, utilizing pandas, seaborn, pearsonr, chi2_contingency, and matplotlib libraries.
+- **Python Programming**: Implemented code in Python, utilizing pandas, seaborn, SciPy, and matplotlib libraries.
