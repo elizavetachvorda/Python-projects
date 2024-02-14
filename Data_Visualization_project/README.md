@@ -1,4 +1,4 @@
-# Flight Data Analysis Project
+# Visualization for Exploratory Data Analysis: Airline Analysis
 
 ## Overview
 This project involves analyzing a dataset containing information about flights, including flight duration, passenger count, delays, ticket prices, and other relevant factors. The goal is to gain insights into flight patterns, pricing trends, and factors affecting delays.
