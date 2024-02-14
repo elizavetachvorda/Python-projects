@@ -6,13 +6,12 @@ This project involves analyzing a dataset containing information about flights, 
 ## Skills and Techniques Applied
 
 ### Data Exploration and Visualization
-- Utilized Python libraries such as Pandas and Seaborn for data manipulation and visualization.
+- Utilized Python libraries such as Pandas, Seaborn, Matplotlib for data manipulation and visualization.
 - Generated various plots including histograms, scatter plots, box plots, and count plots to visualize distributions, relationships, and trends in the data.
 - Explored the dataset's structure, summary statistics, and variable distributions to gain a deeper understanding of the data.
 
 ### Statistical Analysis
 - Conducted statistical analysis to calculate descriptive statistics such as mean, median, standard deviation, and quartiles to summarize the dataset.
-- Utilized hypothesis testing techniques such as chi-square tests and contingency table analysis to investigate associations between categorical variables.
 
 ### Interpretation and Communication
 - Interpreted analysis results to extract meaningful insights and draw actionable conclusions.
